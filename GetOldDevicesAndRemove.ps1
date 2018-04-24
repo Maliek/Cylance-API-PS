@@ -1,5 +1,4 @@
 ﻿# Created by Maliek Meersschaert
-# Use with caution!
 
 param(
     [parameter(Mandatory=$true, ParameterSetName="Direct")]
@@ -13,4 +12,4 @@ $output = Get-CyDeviceList | Get-CyDeviceDetail | where state -eq Offline | wher
 
 Write-Output $output
 
-#Remove-CyDevice -DeviceId $output.id
+# Remove-CyDevice -DeviceId $output.id
