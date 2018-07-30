@@ -1,4 +1,4 @@
-﻿Configuration CylanceDeployment
+﻿Configuration CylanceDSCScript
 {
     
     Import-DscResource -ModuleName 'PSDesiredStateConfiguration'
