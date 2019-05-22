@@ -1,5 +1,5 @@
 # Created by Maliek Meersschaert
-# Use with caution! DEMICK00701
+# Use with caution!
 
 param(
     [parameter(Mandatory=$true, ParameterSetName="Direct")]
